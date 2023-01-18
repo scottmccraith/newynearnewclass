@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>HTML and CSS for Complete Beginners: Example 2-10</title>
+		<title>HTML and CSS for Complete Beginners: Example 2-12</title>
 
 		<!-- This CSS and font is purely for presentational purposes. -->
 		<link rel="stylesheet" href="css/presentation.css" />
@@ -13,41 +13,76 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
 	</head>
 
-	<body>
+	<body class="flip">
 		<section class="learn">
 			<!-- Practice area start -->
 
-			<h1>Classic cheesecake</h1>
+			<h1>Payouts</h1>
 
-            <img src="HTML-and-CSS-for-Complete-Beginners-main/Class files/images/example/cheesecake.jpg" alt="cheesecake">
-
-
-			<div>
-				<h2>Ingredients</h2>
-				<ul>
-					<li>Four 8-ounce blocks of cream cheese</li>
-					<li>1 cup of sugar</li>
-					<li>1 cup of sour cream</li>
-					<li>1 teaspoon of vanilla extract</li>
-					<li>3 eggs</li>
-				</ul>
-
-				<div>
-					<h2>Steps</h2>
-					<ol>
-						<li>Mix the ingredients</li>
-						<li>Add the sugar and vanilla extract</li>
-						<li>Cool it in the frige</li>
-						<li>Enjoy!</li>
-					</ol>
-				</div>
-
-                <a href=""><img src="HTML-and-CSS-for-Complete-Beginners-main/Class files/images/example/bookmark.svg" 
-                    alt="Bookmark icon">Save this recipe</a>
+            <table>
+               <thead>
+                <tr>
+                    <th>Payee</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </tr>
+               </thead>
 
 
-				<!-- <a href=""><img src="images/example/bookmark.png" alt="Bookmark icon" width="200px">Save this recipe</a> -->
-			</div>
+               <tbody>
+                <tr>
+                    <td>
+                        <b>John Wick </b>  <br>
+                        Shoota Inc
+                    </td>
+                    <td>$42,272.23</td>
+                    <td>Jan 13, 2022</td>
+                    <td><span>Processing</span></td>
+                </tr>
+                    <td>
+                        <b>William Dafoe </b>  <br>
+                        Spider, Inc
+                    </td>
+                    <td>$27,221</td>
+                    <td>Dec 07, 2021</td>
+                    <td><span>Success</span></td>
+                </tr>
+                    <td>
+                        <b>Chuck Norris </b>  <br>
+                        Roundhouse Inc
+                    </td>
+                    <td>$6,682.00</td>
+                    <td>Oct 23, 2021 </td>
+                    <td><span>Success</span></td>
+                </tr>
+                    <td>
+                        <b>Nick Cage</b>  <br>
+                        Convicts, Inc
+                    </td>
+                    <td>$13,821 </td>
+                    <td>Oct 14, 2021</td>
+                    <td><span>Reverted</span></td>
+                </tr>
+               </tbody>
+
+               <tfoot>
+                <tr>
+                    <td>Total Paid</td>
+                    <td colspan="3">$90,296.95 </td>
+                </tr>
+               </tfoot>
+            </table>
+
+
+
+
 
 			<!-- Practice area end -->
-	
+		</section>
+
+		<section class="preview" data-content="lesson 2-12: Displaying Tabular Data with Tables">
+			<img width="903" src="images/reference/table.png" alt="Reference image" />
+		</section>
+	</body>
+</html>
